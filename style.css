@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(./img/6FwtCQD.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+main {
+  position: relative;
+  width: 70%;
+  left: 70%;
+  transform: translateX(-50%);
+  margin: 35px 0;
+  display: grid;
+  grid-template-columns: 465px 320px;
+}
+
+#checkout-title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  text-align: center;
+  margin: 15px 0;
+  color: white;
+}
+
+#products-preview {
+  position: relative;
+}
+
+#product-painel {
+  position: absolute;
+  width: 90%;
+  /* border-radius: 10px; */
+  background-color: #ffffff;
+  padding: 20px 80px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#product-painel .product {
+  position: relative;
+  width: 100%;
+  display: flex;
+  margin: 5px 0;
+}
+
+.product img {
+  width: 40%;
+  /* border-radius: 10px; */
+  margin-right: 20px;
+}
+
+.product-info {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+}
+
+.product-info h2 {
+  font-size: 16px;
+  color: #080000;
+  margin: 5px 0;
+}
+
+.product-info p {
+  font-size: 12px;
+  color: #4e5150;
+  margin: 5px 0;
+}
+
+.product-info p strong {
+  color: #441111f3;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.quantity-controller {
+  border-radius: 3px;
+  border: 1px solid rgb(136, 136, 136);
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin-top: 25px;
+}
+
+.buy-detail {
+  margin: 7px 0;
+  border-top: 1px solid #0000003a;
+  display: flex;
+  position: relative;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.buy-detail p {
+  display: block;
+  width: 50%;
+}
+
+.buy-detail p:nth-child(2) {
+  text-align: right;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+span {
+  cursor: pointer;
+}
+
+i {
+  border-radius: 45%;
+  border: 1px solid gray;
+  background-color: rgb(255, 255, 255);
+  /* padding: 12px; */
+  padding: 5px 10px 10px 5px;
+  margin: 10px 3px 3px 3px;
+  height: 10px;
+  width: 10px;
+}
+.quantity-controller p {
+  padding: 6px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.product-removal .remove-product {
+  background-color: #333;
+  font-size: 0.8rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 0;
+  padding: 4px 8px;
+  margin: 5px;
+  color: #fff;
+  border-radius: 2px;
+}
+.remove-product:hover {
+  opacity: 0.5;
+}
